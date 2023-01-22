@@ -1,13 +1,23 @@
 
 public class Car extends Vehicle {
 	
-	public int numberOfDoors;
+	private int numberOfDoors;
 	
 	
 	public void openTrunk() {
 		
 		System.out.println(" Trunk opened.");
 		
+	}
+
+
+	public int getNumberOfDoors() {
+		return numberOfDoors;
+	}
+
+
+	public void setNumberOfDoors(int numberOfDoors) {
+		this.numberOfDoors = numberOfDoors;
 	}
 	
 
